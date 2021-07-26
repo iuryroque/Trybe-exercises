@@ -1,18 +1,27 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-  <head>
-    <meta charset="UTF-8">
-    <title>Posicionamento de elementos</title>
-    <link rel="stylesheet" href="./style.css" />
-  </head>
-  <body>
-    <h1>Exercícios de fixação 3.3</h1>
-    <img src="https://bit.ly/39HLUyi" alt="jumpMario" class="super-mario" />
-    <img src="https://bit.ly/3arGfMc" alt="goomba" class="goomba" />
-    <img src="https://bit.ly/2MV2bY0" alt="bowser" class="bowser" />
-    <p class="speach">
-      Goomba, do something!
-    </p>
-    <img src="https://bit.ly/3tmxgED" alt="baloon" class="baloon" />
-  </body>
-</html>
+.caixa {
+  color: white;
+  display: inline-block;
+  line-height: 50px;
+  text-align: center;
+  vertical-align: top;
+}
+
+.width-and-height {
+  height: 50px;
+  width: 50px;
+}
+
+/* insira na classe abaixo um padding de 20px para aplicá-lo aos itens B, C e D */
+.padding {
+  padding: 20px;
+}
+
+/* insira na classe abaixo uma margem de 30px para aplicá-la aos itens C e D */
+.margin {
+  margin: 30px;
+}
+
+/* insira na classe abaixo uma borda com valor '5px solid black' para aplicá-la ao item D */
+.border {
+  border: 5px solid black;
+} 

@@ -1,18 +1,40 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-  <head>
-    <meta charset="UTF-8">
-    <title>Posicionamento de elementos</title>
-    <link rel="stylesheet" href="./style.css" />
-  </head>
-  <body>
-    <h1>Exercícios de fixação 3.3</h1>
-    <img src="https://bit.ly/39HLUyi" alt="jumpMario" class="super-mario" />
-    <img src="https://bit.ly/3arGfMc" alt="goomba" class="goomba" />
-    <img src="https://bit.ly/2MV2bY0" alt="bowser" class="bowser" />
-    <p class="speach">
-      Goomba, do something!
-    </p>
-    <img src="https://bit.ly/3tmxgED" alt="baloon" class="baloon" />
-  </body>
-</html>
+.super-mario {
+  width: 200px;
+  position: absolute;
+  z-index: 1;
+  left: 20px;
+}
+
+.goomba {
+  width: 100px;
+  position: absolute;
+  top: 340px;
+  left: 120px;
+  z-index: 2;
+}
+
+.baloon {
+
+  position: absolute;
+  top: 60px;
+  left: 560px;
+  z-index: 2;
+}
+
+.speach {
+  font-size: 25px;
+  position: absolute;
+  top: 100px;
+  left: 580px;
+  z-index: 3;
+}
+
+.bowser {
+  width: 200px;
+  position: absolute;
+  top:150px;
+  left: 900px;
+}
+1 - Posicione o Mário acima do Goomba.
+2 - Posicione a tag p para que fique dentro do balão de fala.
+3 - Posicione o balão para que se torne uma fala de Bowser.

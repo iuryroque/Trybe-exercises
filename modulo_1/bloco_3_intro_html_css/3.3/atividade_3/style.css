@@ -1,0 +1,31 @@
+h1,p{
+    text-align: center;
+}
+li:hover{
+  background-color: black;  
+  color:white;
+}
+li:active{
+    font-family:monospace;
+}
+ul,ol{
+    list-style: none;
+}
+
+
+
+#um{
+    text-decoration: line-through ;
+}
+#dois{
+    text-decoration: line-through ;
+}
+#tres{
+    text-decoration: line-through ;
+}
+#quatro{
+    text-decoration: line-through ;
+}
+#cinco{
+    text-decoration: line-through ;
+}
