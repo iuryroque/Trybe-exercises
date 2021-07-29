@@ -5,4 +5,8 @@ for (let i = 0; i < numeros.length; i++) {
 	sum = sum + numeros[i];
 	media = sum / numeros.length;	
 }
-console.log("A media aritmética dos numero é: " + media);
+if (media > 20) {
+    console.log("Valor da media maior que 20, media = " + media);    
+}else{
+    console.log("Valor da media menor ou igual 20, media = " + media);  
+}
