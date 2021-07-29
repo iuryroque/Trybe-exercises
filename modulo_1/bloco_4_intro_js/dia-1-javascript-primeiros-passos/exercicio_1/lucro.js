@@ -1,12 +1,14 @@
-let custo_produto = 1000;
-let valor_venda = 2000;
-let lucro = 0;
+let custo_produto = 10;
+let valor_venda = 20;
 
-if (custo_produto != 0 && valor_venda != 0){
-    valor_custo_total += custo_produto + (custo_produto /100 * 20);
-    lucro = valor_venda - valor_custo_total;
-    lucro_total = lucro * 1000;
-    console.log("A empresa terá de lucro " + lucro_total;
+if (custo_produto >= 0 && valor_venda > 0){
+    let imposto = 1.2;
+    let produtos_vendidos = 1000;
+    let custo_total = imposto * custo_produto;
+    let lucro = valor_venda - custo_total;
+    let lucro_total = produtos_vendidos * lucro;
+    console.log("Lucro da empresa: " + lucro_total);
+
 }else{
     console.log("Erro");
 }
