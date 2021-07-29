@@ -1,9 +1,9 @@
 let numeros = [1000,2,3,59,1,6];
-let menor = numeros[1];
+let impar = 0;
+
 for (let i = 0; i < numeros.length; i++) {
-    let comparador = numeros [i]
-    if (comparador < menor) {
-        menor = comparador;
+    if ((numeros[i]%2) === 0) {
+        impar = impar + 1;
     }
 }
-console.log(menor);
+console.log("Quantidade de numero impar: " + impar);
