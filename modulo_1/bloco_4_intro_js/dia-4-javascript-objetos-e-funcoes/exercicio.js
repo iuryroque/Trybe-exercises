@@ -6,3 +6,6 @@ let info = {
 //1ª Atividade
   console.log("Bem vinda " + info.personagem);
 
+//2ª Atividade
+info ["recorrente"] = "Sim"
+console.log(info);
