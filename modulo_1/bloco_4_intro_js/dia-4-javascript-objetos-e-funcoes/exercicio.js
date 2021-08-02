@@ -14,3 +14,10 @@ console.log(info);
 for (let key in info) {
   console.log(key);
 }
+
+console.log(" ");
+
+//4ª Atividade
+for (let key in info) {
+  console.log(info [key]);
+}
