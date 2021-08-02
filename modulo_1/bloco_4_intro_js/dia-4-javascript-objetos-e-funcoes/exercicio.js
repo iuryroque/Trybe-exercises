@@ -9,3 +9,8 @@ let info = {
 //2ª Atividade
 info ["recorrente"] = "Sim"
 console.log(info);
+
+//3ª Atividade
+for (let key in info) {
+  console.log(key);
+}
