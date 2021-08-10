@@ -17,7 +17,7 @@ Exercícios realizados durante o curso de Desenvolvimento Web Full Stack na Tryb
 
 - [x] 2-1: Git & Github - O que é e para que serve
 - [x] 2-2: Git & Github - Entendendo os comandos
-- [ ] 2-3: Internet - Entendendo como ela funciona
+- [x] 2-3: Internet - Entendendo como ela funciona
 
   </p>
 </details>
@@ -25,10 +25,10 @@ Exercícios realizados durante o curso de Desenvolvimento Web Full Stack na Tryb
 <details><summary><b>Bloco 03 - Introdução ao HTML e CSS</b></summary>
 <p>
   
-- [ ] 3-1: Introdução - HTML & CSS + Estruturas de página
-- [ ] 3-2: Primeiros passos em CSS
-- [ ] 3-3: HTML & CSS - Seletores e posicionamento
-- [ ] 3-4: HTML semântico
+- [x] 3-1: Introdução - HTML & CSS + Estruturas de página
+- [x] 3-2: Primeiros passos em CSS
+- [x] 3-3: HTML & CSS - Seletores e posicionamento
+- [x] 3-4: HTML semântico
 
 </p>
 </details>
@@ -36,10 +36,10 @@ Exercícios realizados durante o curso de Desenvolvimento Web Full Stack na Tryb
 <details><summary><b>Bloco 04 - Introdução à JavaScript e Lógica de Programação</b></summary>
 <p>
   
-- [ ] 4-1: Introdução - JavaScript + Primeiros passos
-- [ ] 4-2: Array e loop for
-- [ ] 4-3: Lógica de programação e algoritmos
-- [ ] 4-4: Objetos e funções
+- [x] 4-1: Introdução - JavaScript + Primeiros passos
+- [x] 4-2: Array e loop for
+- [x] 4-3: Lógica de programação e algoritmos
+- [x] 4-4: Objetos e funções
 
   </p>
   </details>
@@ -47,7 +47,7 @@ Exercícios realizados durante o curso de Desenvolvimento Web Full Stack na Tryb
 <details><summary><b>Bloco 05 - JavaScript: DOM, Eventos e Web Storage</b></summary>
 <p>
   
-- [ ] 5-1: JavaScript - DOM e seletores
+- [x] 5-1: JavaScript - DOM e seletores
 - [ ] 5-2: JavaScript - Trabalhando com elementos
 - [ ] 5-3: JavaScript - Eventos
 - [ ] 5-4: Fundamentos - JavaScript
