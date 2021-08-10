@@ -6,3 +6,10 @@ document.getElementsByClassName("main-content")[0].style.backgroundColor = "rgb(
 document.getElementsByClassName("center-content")[0].style.backgroundColor = "white";
 // Questão 4
 document.getElementsByClassName("title")[0].innerText = "Exercício 5.1 - JavaScript";
+// Questão 5
+function upperCase(tag){
+    let element = document.getElementsByTagName(tag)
+    for (let i = 0; i < element.length; i += 1){
+        element[i].style.textTransform = 'uppercase'
+    }
+}upperCase("p");
