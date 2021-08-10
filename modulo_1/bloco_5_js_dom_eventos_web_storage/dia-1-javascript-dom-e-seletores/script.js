@@ -13,3 +13,10 @@ function upperCase(tag){
         element[i].style.textTransform = 'uppercase'
     }
 }upperCase("p");
+// Questão 6
+function print(tag){
+    let element = document.getElementsByTagName(tag)
+    for (let i = 0; i < element.length; i += 1){
+        console.log(element[i]);
+    }
+}print("p");
