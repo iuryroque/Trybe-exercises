@@ -41,4 +41,35 @@ function createDaysOfTheWeek() {
     button.innerText = "Feriados"
     button.id = "btn-holiday";
   }
-implementHolidayButton()
+  implementHolidayButton()
+
+function holidayColors() {
+  let buttonHoliday = document.querySelector("#btn-holiday");
+  let holidayClass = document.querySelector("#holiday");
+  buttonHoliday.addEventListener("click", function () {
+    for (let index = 0; index < buttonHoliday.length; index++) {
+      if (selectHolidayClass[i].style.backgroundColor === "green") {
+        selectHolidayClass[i].style.backgroundColor = "rgb(238,238,238)";
+        selectHolidayClass[i].style.color = "#777";
+      }    
+    }
+  })
+}
+  holidayColors();
+
+  // function olidayColors() {
+  //   let selectButtonHoliday = document.querySelector("#btn-holiday");
+  //   let selectHolidayClass = document.getElementsByClassName("holiday");
+  //   selectButtonHoliday.addEventListener("click", function(){
+  //     for (let i = 0; i < selectHolidayClass.length; i++) {
+  //       if (selectHolidayClass[i].style.backgroundColor === "green") {
+  //         selectHolidayClass[i].style.backgroundColor = "rgb(238,238,238)";
+  //         selectHolidayClass[i].style.color = "#777";
+  //       } else {
+  //         selectHolidayClass[i].style.backgroundColor = "green";
+  //         selectHolidayClass[i].style.color = "white";
+  //       }
+  //     }
+  //   });
+  // }
+  // olidayColors();
