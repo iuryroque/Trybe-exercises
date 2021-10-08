@@ -1,0 +1,22 @@
+
+.App-link {
+  color: #61dafb;
+}
+
+.header, .footer{
+  text-align: center;
+  background-color: #282c34;
+  height: 40px;
+}
+
+.content {
+  background-color: #99cfdf;
+  padding: 10px 20px;
+  width: 80%;
+  margin: 0 auto;  
+}
+
+h1 {
+  margin: 0;
+  color: rgb(227, 232, 236);
+}
