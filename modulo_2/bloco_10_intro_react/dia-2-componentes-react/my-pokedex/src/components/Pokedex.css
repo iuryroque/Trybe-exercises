@@ -1,0 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.pokemon {
+  min-width: 50%;
+  display:flex;
+  border: 1px solid #000;
+  border-radius: 3px;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.container-pokemon {
+  display: flex;
+  
+}
+
+h1 {
+  text-align: center;
+}
